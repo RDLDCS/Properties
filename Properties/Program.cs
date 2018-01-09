@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace Properties
 {
@@ -10,7 +7,8 @@ namespace Properties
     {
         static void Main(string[] args)
         {
-
+            var person = new Person(new DateTime (1982,5,25) );
+            Console.WriteLine(person.Age);
         }
     }
 }
